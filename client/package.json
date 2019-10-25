@@ -1,0 +1,29 @@
+{
+  "name": "gql-types",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "generate": "graphql-codegen",
+    "cg": "apollo client:codegen --output=apollo.d.ts --localSchemaFile=schema/schema.graphql --target=typescript"
+  },
+  "dependencies": {
+    "@graphql-codegen/typescript-operations": "1.8.2",
+    "apollo": "2.21.0",
+    "graphql": "14.5.8",
+    "isomorphic-unfetch": "3.0.0",
+    "next": "9.1.1",
+    "pratica": "2.0.2",
+    "react": "16.11.0",
+    "react-dom": "16.11.0"
+  },
+  "devDependencies": {
+    "@graphql-codegen/cli": "1.8.2",
+    "@graphql-codegen/typescript": "1.8.2",
+    "@types/node": "12.11.7",
+    "@types/react": "16.9.10",
+    "typescript": "3.6.4"
+  }
+}
